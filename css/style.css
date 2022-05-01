@@ -1,0 +1,309 @@
+ *{
+    margin: 0%;
+}  
+
+header{
+    /* border: solid 1px black; */
+    background-color: orange;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a:hover{
+    color: blue;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.firstview{
+    /* border: solid 1px black; */
+    height: 90vh;
+    width: 100vw;
+    background-image: url(../img/about_mango_bg.jpeg);
+    background-size: cover;
+    /* display: flex; */
+    /* background: rgb(250, 211, 137) */
+    border-bottom: solid 50px orange;
+    
+}
+
+h4{
+    font-size: 100px;
+    text-align: end;
+    padding: 60px 60px 0 0;
+    font-family: 'Merriweather', serif;
+}
+
+p.sun{
+    font-size: 40px;
+    text-align: center;
+    margin: auto 0;
+    height: 20vh;
+    width: 20vw;
+}
+ 
+
+.ranking {
+    position: relative;
+}
+
+
+/*  マンゴーの効能*/
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.efficacy{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0 150px;
+}
+
+.circle{
+    border: solid 1px orange;
+    height: 30vh;
+    width: 18vw;
+    border-radius: 30%;
+    text-align: center;
+    background-image: radial-gradient(white,orange);
+}
+
+h3{
+    margin: 30px  auto 30px;
+    border-bottom: solid 2px orange;
+    width: 60%;
+    font-size: 26px;
+}
+h5{
+    margin: 50px  auto 30px;
+    border-bottom: solid 2px orange;
+    width: 60%;
+    font-size: 26px;
+}
+
+.circle p{
+    margin-top: 6vh;
+    font-size: 25px;
+}
+
+.mango{
+    display: block;
+    position: relative;
+}
+
+
+/* マンゴーの選び方 */
+.Choose{
+    /* border: solid 1px black; */
+    height: auto;
+    width: 75vw;
+    margin: 30px auto 100px;
+    position: relative;
+}
+
+.Choose p{
+border: solid 1px orange;
+background-image: radial-gradient(white,orange);
+border-radius: 10%;
+width: 20vw;
+height: 25vh;
+padding: 3%;
+display: flex;
+align-items: center;
+}
+
+.Choose_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.Choose_under{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20vh;
+    margin-bottom: 100px;
+}
+
+.Choose img{
+    position: absolute;
+    width: 35%;
+    height: 50%;
+    left: 24vw;
+    top: 20vh;
+}
+
+/* 販売場所 */
+.buy{
+    /* border: solid 1px black; */
+    margin: 50px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.buy img{
+    width: 20%;
+    height: 20%;
+    margin-bottom: 10px;
+
+}
+
+.buy_sub{
+    /* border: solid 1px black; */
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.buy p{
+    height: 15vh;
+    width: 50vw;
+}
+
+
+/* icons */
+.icons{
+    text-align: center;
+    font-size: 40px;
+}
+
+.fa-brands{
+    margin: 0 50px;
+}
+
+/* ネット販売 */
+.netbuy {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* 問い合わせ */
+.inquiry{
+    width: 100vw;
+    /* height: 100vh; */
+    color: rgb(113, 113, 113);
+    text-align: center;
+}
+
+.inquiry input{
+    border: solid 1px black;
+    width: 50vw;
+    height: 5vh;
+    margin: 15px auto;
+}
+
+textarea{
+    width: 50vw;
+    color: rgb(113, 113, 113);
+    margin-top: 10px;
+}
+
+
+.buttom input{
+    width: 15vw;
+    height: 8vh;
+    background-color: orange;
+    border: solid 1px black;
+    color: black;
+    font-size: 20px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttom input:hover{
+    cursor: pointer;
+    background-color: transparent;
+}
+
+
+footer{
+    height: 5vh;
+    background-color: orange;
+    text-align: center;
+    margin: 100px auto 0;
+}
+
+
+/* レスポンシブ */
+@media screen and (max-width:780px) {
+   .first{
+        overflow: hidden;
+} 
+   
+    .efficacy{
+        display: block;
+    }
+    
+    .efficacy .text{
+        width: auto;
+        height: none;
+    }
+
+    .circle{
+        height: auto;
+        width: 80vw;
+        margin: 20px auto;
+        
+    }
+    .Choose img{
+        height: auto;
+    }
+    .Choose p{
+        font-size: 13px;
+        width: auto;
+    }
+
+    .Choose_top{
+        justify-content: center;
+    }
+    .Choose_under{
+        justify-content: center;
+    }
+    .Choose img{
+        width: 50%;
+        left: 16vw;
+        top: 19vh;
+    }
+
+    .buy{
+        display: block;
+        text-align: center;
+        margin: 0%;
+    }
+
+    .buy p{
+        width: 100%;
+        text-align: start;
+    }
+
+    .buy img{
+        width: 35%;
+        height: auto;
+    }
+
+    h1{
+        font-size: 20px;
+        margin: 0%;
+    }
+
+    h4{
+        font-size: 40px;
+        padding: 20px;
+        text-align: center;
+    }
+   
+}
+
+
