@@ -183,8 +183,7 @@ align-items: center;
 /* ネット販売 */
 .netbuy {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px;
 }
 
 /* 問い合わせ */
@@ -292,6 +291,11 @@ footer{
         width: 35%;
         height: auto;
     }
+
+    .buy_sub{
+        margin: 0 30px;
+    }
+    
 
     h1{
         font-size: 20px;
