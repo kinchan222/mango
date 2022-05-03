@@ -114,7 +114,7 @@ h5{
 border: solid 1px orange;
 background-image: radial-gradient(white,orange);
 border-radius: 10%;
-width: 20vw;
+width: 35vw;
 height: 25vh;
 padding: 3%;
 display: flex;
@@ -138,9 +138,9 @@ align-items: center;
 .Choose img{
     position: absolute;
     width: 35%;
-    height: 50%;
+    height: 47%;
     left: 24vw;
-    top: 20vh;
+    top: 18vh;
 }
 
 /* 販売場所 */
